@@ -1,0 +1,429 @@
+
+[Main]
+MissionType=BushTrip
+MissionLocation=TT:wt001-paiw-pafa.Mission.2
+Title=TT:wt001-paiw-pafa.Mission.3
+Description=TT:wt001-paiw-pafa.Mission.4
+AppVersion=10.0.282174
+FlightVersion=1
+
+[Options]
+Sound=True
+Pause=True
+Moonlight=True
+Save=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+SaveOriginalFlightPlan=True
+
+[Briefing]
+BriefingText=TT:wt001-paiw-pafa.Mission.1
+BriefingImage0="./Images/PASH.jpg"
+BriefingImage1="./Images/PADE.jpg"
+BriefingImage2="./Images/PABL.jpg"
+BriefingImage3="./Images/PASK.jpg"
+BriefingImage4="./Images/PAGH.jpg"
+BriefingImage5="./Images/2AK6.jpg"
+BriefingImage6="./Images/PAIM.jpg"
+BriefingImage7="./Images/PABT.jpg"
+BriefingImage8="./Images/1AK1.jpg"
+BriefingImage9="./Images/PAKP.jpg"
+BriefingImage10="./Images/PAGB.jpg"
+BriefingImage11="./Images/PALR.jpg"
+BriefingImage12="./Images/PAWB.jpg"
+BriefingImage13="./Images/SVS.jpg"
+BriefingImage14="./Images/PAFA.jpg"
+
+[Sim.0]
+Sim=DA62 Asobo
+SimFile=runway.FLT
+TailNumber=
+AirlineCallSign=
+FlightNumber=
+AppendHeavy=False
+Pilot=Pilot_Male
+Copilot.0=Pilot_Male
+Copilot.1=Pilot_Male
+
+
+[ResourcePath]
+Path=wt001-paiw-pafa
+
+[ObjectFile]
+File=wt001-paiw-pafa
+
+[Atc_Menu]
+Visible=False
+
+[Weather]
+UseWeatherFile=False
+UseLiveWeather=True
+WeatherPresetFile=
+WeatherCanBeLive=True
+
+[Assistance]
+EventTriggersFileCount=1
+EventTriggersFile.0=BushTripEventTriggers
+
+[Departure]
+ICAO=PAIW
+RunwayNumber=
+RunwayDesignator=NONE
+
+
+[Loading]
+ImageName=./images/Loading_Screen.jpg
+Tips0=TT:wt001-paiw-pafa.Mission.5
+Tips1=TT:LOADING.TIPS.BUSH_TRIPS.2
+Tips2=TT:LOADING.TIPS.BUSH_TRIPS.3
+Tips3=TT:LOADING.TIPS.BUSH_TRIPS.4
+Tips4=TT:LOADING.TIPS.BUSH_TRIPS.5
+
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=255
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 8192, 4000
+UndocCoords=0, 0, 0, 0
+CurrentCamera={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=True
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+Waypoint.0=, PAIW, , Wales, A, N65° 37' 21.35",W168° 5' 41.95", +000021.00, 
+Waypoint.1=AA, POI1, , Lopp Lagoon, U, N65° 42' 11.66",W168° 3' 24.95", +002368.97, 
+Waypoint.2=AA, POI2, , Ikpek Lagoon, U, N65° 51' 38.47",W167° 22' 22.91", +005000.00, 
+Waypoint.3=AA, POI3, , Shishmaref Inlet, U, N66° 10' 11.80",W166° 18' 11.66", +005000.00, 
+Waypoint.4=, PASH, , Shishmaref, A, N66° 14' 58.49",W166° 5' 21.95", +005000.00, 
+Waypoint.5=AB, POI4, , Shishmaref Inlet, U, N66° 9' 1.87",W165° 33' 22.20", +005000.00, 
+Waypoint.6=AB, POI5, , Kotzebue Sound, U, N66° 8' 9.88",W163° 52' 16.10", +005000.00, 
+Waypoint.7=AB, POI6, , Kotzebue Sound, U, N66° 4' 3.54",W163° 16' 30.47", +005000.00, 
+Waypoint.8=, PADE, , Deering, A, N66° 4' 9.17",W162° 46' 1.36", +005000.00, 
+Waypoint.9=AC, POI7, , Kiwalik, U, N66° 1' 18.94",W161° 51' 28.42", +005000.00, 
+Waypoint.10=, PABL, , Buckland, A, N65° 58' 53.72",W161° 8' 56.79", +005000.00, 
+Waypoint.11=AD, POI8, , Buckland River, U, N66° 12' 55.44",W161° 2' 50.34", +005000.00, 
+Waypoint.12=AD, POI9, , Selawik Lake, U, N66° 22' 10.03",W160° 40' 3.64", +005000.00, 
+Waypoint.13=AD, POI10, , Selawik Lake, U, N66° 22' 59.55",W160° 15' 10.60", +005000.00, 
+Waypoint.14=AD, POI11, , Inland Lake, U, N66° 32' 46.85",W159° 56' 25.88", +005000.00, 
+Waypoint.15=, PASK, , Selawik, A, N66° 36' 0.54",W159° 59' 9.35", +005000.00, 
+Waypoint.16=AE, POI12, , Selawik River, U, N66° 36' 6.37",W158° 59' 46.98", +005000.00, 
+Waypoint.17=AE, POI13, , Kugarak River, U, N66° 44' 18.77",W158° 42' 50.86", +005000.00, 
+Waypoint.18=AE, POI14, , Kugarak River, U, N66° 43' 0.63",W158° 14' 1.72", +005000.00, 
+Waypoint.19=AE, POI15, , Sheklukshuk Range, U, N66° 44' 2.16",W157° 36' 34.74", +005000.00, 
+Waypoint.20=AE, POI16, , Kobuk River, U, N66° 51' 49.60",W157° 19' 41.58", +005000.00, 
+Waypoint.21=, PAGH, , Shungnak, A, N66° 53' 17.08",W157° 9' 45.24", +005000.00, 
+Waypoint.22=AF, POI17, , Pick River, U, N66° 45' 12.44",W156° 57' 42.78", +005000.00, 
+Waypoint.23=AF, POI18, , Lockwood Hills, U, N66° 32' 14.39",W156° 25' 5.02", +005000.00, 
+Waypoint.24=AF, POI19, , Zane Hills, U, N66° 16' 22.56",W155° 49' 24.99", +005000.00, 
+Waypoint.25=, 2AK6, , Hog River, A, N66° 10' 51.41",W155° 41' 42.96", +005000.00, 
+Waypoint.26=AG, POI20, , Lake Tokhaklanten, U, N66° 11' 23.68",W154° 42' 48.49", +005000.00, 
+Waypoint.27=AG, POI21, , Indian Mountains, U, N65° 59' 2.21",W153° 52' 44.78", +005000.00, 
+Waypoint.28=, PAIM, , Indian Mountain LRRS, A, N65° 59' 33.74",W153° 42' 13.78", +005000.00, 
+Waypoint.29=AH, POI22, , Indian River, U, N66° 1' 26.96",W153° 28' 19.86", +005000.00, 
+Waypoint.30=AH, POI23, , Notoniono Creek, U, N66° 8' 5.87",W153° 17' 14.91", +005000.00, 
+Waypoint.31=AH, POI24, , Mentanontli River, U, N66° 11' 54.61",W153° 6' 7.49", +005000.00, 
+Waypoint.32=AH, POI25, , Koyukuk River, U, N66° 28' 19.83",W152° 56' 58.73", +005000.00, 
+Waypoint.33=AH, POI26, , Allakaket, U, N66° 33' 37.03",W152° 37' 12.53", +005000.00, 
+Waypoint.34=AH, POI27, , Koyukuk River, U, N66° 33' 9.49",W152° 2' 1.18", +005000.00, 
+Waypoint.35=AH, POI28, , Koyukuk River, U, N66° 39' 36.18",W151° 43' 31.29", +005000.00, 
+Waypoint.36=, PABT, , Bettles, A, N66° 54' 50.08",W151° 31' 44.97", +005000.00, 
+Waypoint.37=AI, POI29, , John River, U, N67° 7' 53.62",W151° 54' 40.57", +005000.00, 
+Waypoint.38=, 1AK1, , Crevice Creek, A, N67° 22' 9.79",W152° 0' 42.19", +005000.00, 
+Waypoint.39=AJ, POI30, , John River, U, N67° 35' 7.45",W152° 12' 59.32", +005000.00, 
+Waypoint.40=AJ, POI31, , John River, U, N67° 44' 52.67",W152° 25' 43.14", +005000.00, 
+Waypoint.41=AJ, POI32, , John River, U, N68° 1' 17.23",W152° 6' 36.17", +005000.00, 
+Waypoint.42=, PAKP, , Anaktuvuk Pass, A, N68° 8' 1.15",W151° 44' 35.83", +005000.00, 
+Waypoint.43=AK, POI33, , Gates of the Arctic, U, N68° 20' 18.36",W151° 26' 5.06", +005000.00, 
+Waypoint.44=AK, POI34, , Shainin Lake, U, N68° 20' 51.21",W151° 4' 5.05", +005000.00, 
+Waypoint.45=AK, POI35, , Itkillik Lake, U, N68° 26' 26.15",W149° 58' 34.58", +005000.00, 
+Waypoint.46=, PAGB, , Galbraith Lake, A, N68° 28' 47.05",W149° 29' 24.18", +005000.00, 
+Waypoint.47=AL, POI36, , AK-11, U, N68° 21' 0.32",W149° 20' 5.91", +005000.00, 
+Waypoint.48=AL, POI37, , Atigun Pass, U, N68° 8' 0.54",W149° 26' 21.92", +005000.00, 
+Waypoint.49=AL, POI38, , Atigun Pass, U, N68° 6' 56.99",W149° 31' 44.53", +005000.00, 
+Waypoint.50=AL, POI39, , Chandalar Shelf, U, N68° 3' 10.94",W149° 35' 35.63", +005000.00, 
+Waypoint.51=AL, POI40, , Chandalar River, U, N67° 50' 14.04",W148° 57' 48.88", +005000.00, 
+Waypoint.52=AL, POI41, , Chandalar River, U, N67° 49' 40.48",W148° 34' 6.31", +005000.00, 
+Waypoint.53=AL, POI42, , Chandalar River, U, N67° 44' 53.60",W148° 16' 43.16", +005000.00, 
+Waypoint.54=AL, POI43, , Chandalar River, U, N67° 35' 0.86",W148° 28' 27.66", +005000.00, 
+Waypoint.55=, PALR, , Chandalar Lake, A, N67° 30' 13.65",W148° 29' 14.85", +005000.00, 
+Waypoint.56=AM, POI44, , Chandalar River, U, N67° 19' 30.15",W148° 51' 31.94", +005000.00, 
+Waypoint.57=AM, POI45, , Yukon Flats, U, N67° 3' 41.57",W148° 36' 38.31", +005000.00, 
+Waypoint.58=AM, POI46, , Pitka Fork, U, N66° 41' 24.83",W148° 29' 12.76", +005000.00, 
+Waypoint.59=AM, POI47, , Hodzana River, U, N66° 27' 33.44",W147° 45' 54.77", +005000.00, 
+Waypoint.60=, PAWB, , Beaver, A, N66° 21' 43.94",W147° 24' 23.27", +005000.00, 
+Waypoint.61=AN, POI48, , Yukon River, U, N66° 13' 25.35",W148° 13' 23.54", +005000.00, 
+Waypoint.62=, SVS, , Stevens Village, A, N66° 1' 2.43",W149° 3' 12.10", +005000.00, 
+Waypoint.63=AO, POI49, , AK-11, U, N65° 34' 48.14",W148° 58' 53.15", +005000.00, 
+Waypoint.64=AO, POI50, , AK-2, U, N65° 26' 28.13",W148° 15' 49.05", +005000.00, 
+Waypoint.65=AO, POI51, , AK-2, U, N64° 58' 26.86",W147° 37' 15.33", +003115.61, 
+Waypoint.66=, PAFA, , Fairbanks Intl, A, N64° 48' 50.05",W147° 51' 19.47", +000432.00, 
+NumberofWaypoints=67
+ClearanceFlags=82
+CtCur=CLEARANCE_NONE
+WaypointNext=1
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=4608
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=-1
+RunwayRequestIndex=-1
+ParkingIndex=-1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=1000
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+Title=TT:wt001-paiw-pafa.Mission.3
+Description=TT:wt001-paiw-pafa.Mission.4
+type=VFR
+routetype=0
+cruising_altitude=1000
+departure_id=PAIW, N65° 37' 21.35",W168° 5' 41.95",+000021.00
+departure_position=
+destination_id=PAFA, N64° 48' 50.05",W147° 51' 19.47",+000432.00
+departure_name=TT:wt001-paiw-pafa.Mission.6
+destination_name=TT:wt001-paiw-pafa.Mission.72
+Waypoint.0=, PAIW, , Wales, A, N65° 37' 21.35",W168° 5' 41.95", +000021.00, 
+Waypoint.1=AA, POI1, , Lopp Lagoon, U, N65° 42' 11.66",W168° 3' 24.95", +002368.97, 
+Waypoint.2=AA, POI2, , Ikpek Lagoon, U, N65° 51' 38.47",W167° 22' 22.91", +005000.00, 
+Waypoint.3=AA, POI3, , Shishmaref Inlet, U, N66° 10' 11.80",W166° 18' 11.66", +005000.00, 
+Waypoint.4=, PASH, , Shishmaref, A, N66° 14' 58.49",W166° 5' 21.95", +005000.00, 
+Waypoint.5=AB, POI4, , Shishmaref Inlet, U, N66° 9' 1.87",W165° 33' 22.20", +005000.00, 
+Waypoint.6=AB, POI5, , Kotzebue Sound, U, N66° 8' 9.88",W163° 52' 16.10", +005000.00, 
+Waypoint.7=AB, POI6, , Kotzebue Sound, U, N66° 4' 3.54",W163° 16' 30.47", +005000.00, 
+Waypoint.8=, PADE, , Deering, A, N66° 4' 9.17",W162° 46' 1.36", +005000.00, 
+Waypoint.9=AC, POI7, , Kiwalik, U, N66° 1' 18.94",W161° 51' 28.42", +005000.00, 
+Waypoint.10=, PABL, , Buckland, A, N65° 58' 53.72",W161° 8' 56.79", +005000.00, 
+Waypoint.11=AD, POI8, , Buckland River, U, N66° 12' 55.44",W161° 2' 50.34", +005000.00, 
+Waypoint.12=AD, POI9, , Selawik Lake, U, N66° 22' 10.03",W160° 40' 3.64", +005000.00, 
+Waypoint.13=AD, POI10, , Selawik Lake, U, N66° 22' 59.55",W160° 15' 10.60", +005000.00, 
+Waypoint.14=AD, POI11, , Inland Lake, U, N66° 32' 46.85",W159° 56' 25.88", +005000.00, 
+Waypoint.15=, PASK, , Selawik, A, N66° 36' 0.54",W159° 59' 9.35", +005000.00, 
+Waypoint.16=AE, POI12, , Selawik River, U, N66° 36' 6.37",W158° 59' 46.98", +005000.00, 
+Waypoint.17=AE, POI13, , Kugarak River, U, N66° 44' 18.77",W158° 42' 50.86", +005000.00, 
+Waypoint.18=AE, POI14, , Kugarak River, U, N66° 43' 0.63",W158° 14' 1.72", +005000.00, 
+Waypoint.19=AE, POI15, , Sheklukshuk Range, U, N66° 44' 2.16",W157° 36' 34.74", +005000.00, 
+Waypoint.20=AE, POI16, , Kobuk River, U, N66° 51' 49.60",W157° 19' 41.58", +005000.00, 
+Waypoint.21=, PAGH, , Shungnak, A, N66° 53' 17.08",W157° 9' 45.24", +005000.00, 
+Waypoint.22=AF, POI17, , Pick River, U, N66° 45' 12.44",W156° 57' 42.78", +005000.00, 
+Waypoint.23=AF, POI18, , Lockwood Hills, U, N66° 32' 14.39",W156° 25' 5.02", +005000.00, 
+Waypoint.24=AF, POI19, , Zane Hills, U, N66° 16' 22.56",W155° 49' 24.99", +005000.00, 
+Waypoint.25=, 2AK6, , Hog River, A, N66° 10' 51.41",W155° 41' 42.96", +005000.00, 
+Waypoint.26=AG, POI20, , Lake Tokhaklanten, U, N66° 11' 23.68",W154° 42' 48.49", +005000.00, 
+Waypoint.27=AG, POI21, , Indian Mountains, U, N65° 59' 2.21",W153° 52' 44.78", +005000.00, 
+Waypoint.28=, PAIM, , Indian Mountain LRRS, A, N65° 59' 33.74",W153° 42' 13.78", +005000.00, 
+Waypoint.29=AH, POI22, , Indian River, U, N66° 1' 26.96",W153° 28' 19.86", +005000.00, 
+Waypoint.30=AH, POI23, , Notoniono Creek, U, N66° 8' 5.87",W153° 17' 14.91", +005000.00, 
+Waypoint.31=AH, POI24, , Mentanontli River, U, N66° 11' 54.61",W153° 6' 7.49", +005000.00, 
+Waypoint.32=AH, POI25, , Koyukuk River, U, N66° 28' 19.83",W152° 56' 58.73", +005000.00, 
+Waypoint.33=AH, POI26, , Allakaket, U, N66° 33' 37.03",W152° 37' 12.53", +005000.00, 
+Waypoint.34=AH, POI27, , Koyukuk River, U, N66° 33' 9.49",W152° 2' 1.18", +005000.00, 
+Waypoint.35=AH, POI28, , Koyukuk River, U, N66° 39' 36.18",W151° 43' 31.29", +005000.00, 
+Waypoint.36=, PABT, , Bettles, A, N66° 54' 50.08",W151° 31' 44.97", +005000.00, 
+Waypoint.37=AI, POI29, , John River, U, N67° 7' 53.62",W151° 54' 40.57", +005000.00, 
+Waypoint.38=, 1AK1, , Crevice Creek, A, N67° 22' 9.79",W152° 0' 42.19", +005000.00, 
+Waypoint.39=AJ, POI30, , John River, U, N67° 35' 7.45",W152° 12' 59.32", +005000.00, 
+Waypoint.40=AJ, POI31, , John River, U, N67° 44' 52.67",W152° 25' 43.14", +005000.00, 
+Waypoint.41=AJ, POI32, , John River, U, N68° 1' 17.23",W152° 6' 36.17", +005000.00, 
+Waypoint.42=, PAKP, , Anaktuvuk Pass, A, N68° 8' 1.15",W151° 44' 35.83", +005000.00, 
+Waypoint.43=AK, POI33, , Gates of the Arctic, U, N68° 20' 18.36",W151° 26' 5.06", +005000.00, 
+Waypoint.44=AK, POI34, , Shainin Lake, U, N68° 20' 51.21",W151° 4' 5.05", +005000.00, 
+Waypoint.45=AK, POI35, , Itkillik Lake, U, N68° 26' 26.15",W149° 58' 34.58", +005000.00, 
+Waypoint.46=, PAGB, , Galbraith Lake, A, N68° 28' 47.05",W149° 29' 24.18", +005000.00, 
+Waypoint.47=AL, POI36, , AK-11, U, N68° 21' 0.32",W149° 20' 5.91", +005000.00, 
+Waypoint.48=AL, POI37, , Atigun Pass, U, N68° 8' 0.54",W149° 26' 21.92", +005000.00, 
+Waypoint.49=AL, POI38, , Atigun Pass, U, N68° 6' 56.99",W149° 31' 44.53", +005000.00, 
+Waypoint.50=AL, POI39, , Chandalar Shelf, U, N68° 3' 10.94",W149° 35' 35.63", +005000.00, 
+Waypoint.51=AL, POI40, , Chandalar River, U, N67° 50' 14.04",W148° 57' 48.88", +005000.00, 
+Waypoint.52=AL, POI41, , Chandalar River, U, N67° 49' 40.48",W148° 34' 6.31", +005000.00, 
+Waypoint.53=AL, POI42, , Chandalar River, U, N67° 44' 53.60",W148° 16' 43.16", +005000.00, 
+Waypoint.54=AL, POI43, , Chandalar River, U, N67° 35' 0.86",W148° 28' 27.66", +005000.00, 
+Waypoint.55=, PALR, , Chandalar Lake, A, N67° 30' 13.65",W148° 29' 14.85", +005000.00, 
+Waypoint.56=AM, POI44, , Chandalar River, U, N67° 19' 30.15",W148° 51' 31.94", +005000.00, 
+Waypoint.57=AM, POI45, , Yukon Flats, U, N67° 3' 41.57",W148° 36' 38.31", +005000.00, 
+Waypoint.58=AM, POI46, , Pitka Fork, U, N66° 41' 24.83",W148° 29' 12.76", +005000.00, 
+Waypoint.59=AM, POI47, , Hodzana River, U, N66° 27' 33.44",W147° 45' 54.77", +005000.00, 
+Waypoint.60=, PAWB, , Beaver, A, N66° 21' 43.94",W147° 24' 23.27", +005000.00, 
+Waypoint.61=AN, POI48, , Yukon River, U, N66° 13' 25.35",W148° 13' 23.54", +005000.00, 
+Waypoint.62=, SVS, , Stevens Village, A, N66° 1' 2.43",W149° 3' 12.10", +005000.00, 
+Waypoint.63=AO, POI49, , AK-11, U, N65° 34' 48.14",W148° 58' 53.15", +005000.00, 
+Waypoint.64=AO, POI50, , AK-2, U, N65° 26' 28.13",W148° 15' 49.05", +005000.00, 
+Waypoint.65=AO, POI51, , AK-2, U, N64° 58' 26.86",W147° 37' 15.33", +003115.61, 
+Waypoint.66=, PAFA, , Fairbanks Intl, A, N64° 48' 50.05",W147° 51' 19.47", +000432.00, 
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[GPS_Engine]
+Filename=wt001-paiw-pafa
+position=N65° 37' 21.35",W168° 5' 41.95",+000021.00
+Time=-1
+TimeWP=22020
+ArriveTime=47346
+CountWP=67
+NextWP=1
+PlaneStarted=False
+WpInfo0=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo1=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo2=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo3=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo4=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo5=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo6=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo7=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo8=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo9=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo10=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo11=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo12=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo13=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo14=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo15=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo16=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo17=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo18=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo19=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo20=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo21=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo22=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo23=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo24=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo25=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo26=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo27=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo28=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo29=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo30=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo31=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo32=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo33=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo34=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo35=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo36=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo37=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo38=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo39=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo40=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo41=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo42=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo43=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo44=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo45=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo46=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo47=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo48=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo49=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo50=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo51=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo52=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo53=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo54=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo55=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo56=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo57=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo58=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo59=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo60=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo61=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo62=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo63=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo64=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo65=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+WpInfo66=126, 0, 304, 0, 0, 0.0, 0.0, 0.0
+CountFP=0
+
+[DateTimeSeason]
+Season=SUMMER
+Year=2021
+Day=167
+Hours=11
+Minutes=00
+Seconds=00
+
+[SimVars.0]
+Latitude=N65° 36' 59.87"
+Longitude=W168° 5' 49.75"
+Altitude=+000021.00
+Pitch=0
+Bank=0
+Heading=8
+PVelBodyAxis=0
+BVelBodyAxis=0
+HVelBodyAxis=0
+XVelBodyAxis=0
+YVelBodyAxis=0
+ZVelBodyAxis=0
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.0]
+Active=False
+
+
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=100
+LeftMain=100
+RightMain=100
+LeftAux=100
+RightAux=100
+LeftTip=100
+RightTip=100
+Center 2=100
+Center 3=100
+External 1=100
+External 2=100
+
+[Payload.0]
+PayloadList=85.0,85.0,0.0,0.0,0.0
+
+[Controls.0]
+LeftBrake=100.00
+RightBrake=100.00
+ParkingBrake=100.00
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=596.82995962224549658
+
+
+[Multiplayer]
+Status=1
